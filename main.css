@@ -1,0 +1,76 @@
+.quote{
+  font-family: cursive;
+  font-size: 16px;
+  text-align: center;
+  color:white;
+}
+.head{
+  text-align: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  color: white;
+
+}
+#pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edu{
+  background-color: #63a4ff;
+background-image: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+box-shadow: 5px 10px 8px 10px #888888;
+padding: 10px 10px;
+
+
+} .bg{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.sec{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  width:200px;
+  position:fixed;
+  background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding:8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color #ee9617;
+ background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+
+  color: black;
+}
