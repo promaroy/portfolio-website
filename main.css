@@ -24,8 +24,7 @@ padding: 10px 10px;
 
 
 } .bg{
-  background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-   background-blend-mode: screen;
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
 }
 .sec{
   text-align: center;
@@ -64,11 +63,32 @@ li a:hover {
 }
 .educ{ text-align: center;
   padding:10px;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
   color: black;
   box-shadow: 5px 10px 8px  #888888;
+  border-radius: 20%;
+
+
+}
+.educ:hover{
+background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 .proj{
   padding:10px;
   background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+  border-radius: 20%;
+}
+.proj:hover{
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+.bullets{
+  background: #ff9999;
+  padding: 20px;
+  list-style-type: none;
+}
+.each{
+  background: #cce5ff;
+  margin: 5px;
+  font-size: 24px;
+  padding:20px;
 }
