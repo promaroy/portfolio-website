@@ -95,6 +95,7 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 #section1{
 
     padding:20%;
+    padding-top: 10%;
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
