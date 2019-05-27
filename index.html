@@ -8,17 +8,25 @@
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title></title>
+    <script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+
   </head>
   <body class="bg">
+
     <nav class="navbar navbar-expand-sm py-1 bg-dark navbar-dark justify-content-center fixed-top">
     <!-- Brand -->
     <a class="navbar-brand" href="#section1"><i class="fa fa-home"></i></a>
@@ -49,81 +57,86 @@
       </ul>
     </div>
   </nav>
-<br><br><br><br>
+
 
     <div id="section1">
   <!--  <div class="jumbotron jumbotron-fluid">
     <div class="container">-->
-    <div class="edu">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
 
       <h2 class="head"><b>---Proma Roy---</b></h2>
       <h4 class="quote"><a href="https://goo.gl/maps/FNTzXZYnj5K7RUTF9">
           <i class="fa fa-map-marker" style="font-size:24px" ></i>
         </a>Address:Barrackpore,Kolkata-700122</h4>
     <h4 class="quote">  B.Tech(Computer science and engineering),National Institute of Technology,Durgapur</h4>
-      <a href="#section5" class="btn btn-danger btn-md" role="button">Contact</a>
-
-    </div><br><br>
 
 
+    <br><br><br>
 
-  <div class="container">
+
+
+<!--  <div class="container">
     <div class="row">
-      <div class="col-sm-3">
+    <!--  <div class="col-sm-3">
       <!--<ul>
        <li><a  href="#section1">About Me</a></li>
        <li><a  href="#section2">Education</a></li>
        <li><a  href="#section3">Technical Skills</a></li>
        <li><a  href="#section4">Projects</a></li>
        <li><a href="#section5">Contact</a></li>
-     </ul>--></div>
-      <div class="col-sm-6">
-        <div class="card horizontal">
-    <!--  <div class="card-image">
+     </ul>-->
+      <!--<div class="col-sm-6">
+        <!--<div class="card horizontal">
+      <div class="card-image">
         <img src="#">
-      </div>-->
+      </div>
       <div class="card-stacked">
         <div class="card-content">
 
         <div class="card bg-dark text-white">
           <div class="card-content white-text">
-             <div class="card-header" style=color:red><b><h1>About me</h1></div>
-      <p >Hello there!..My name is Proma Roy. I am a resident of Kolkata.<br> I am a freshman pursuing B.Tech in Computer Science and engineering in Nit Durgapur
+             <div class="card-header" style=color:red><b><h1>About me</h1></div>-->
+             <h1><b>About me</h1></b>
+      <p >Hello there!..My name is Proma Roy. I am a resident of Kolkata. I am a freshman pursuing B.Tech in Computer Science and engineering in Nit Durgapur
       My website contains my education details till date, the projects which I have completed and also the ones  which
-      I am currently working on. It also contains the technology skills which I possess.<br>I love to solve problems.Whether it's the most elegant way to write a line of code or  discovering the solution. Viewers are free to contact me through the contact details provided.</div></div></div></div></div></div></b>
-      <div class="col-sm-3"><img src="" class="rounded-circle" width:"50" height:"30"></div>
-
-    </div></div></div><br><br><br>
+      I am currently working on. It also contains the technology skills which I possess.I love to solve problems.Whether it's the most elegant way to write a line of code or  discovering the solution. Viewers are free to contact me through the contact details provided.</b>
+      <!--<div class="col-sm-3"><img src="" class="rounded-circle" width:"50" height:"30"></div>--><br>
+      <div class="head">  <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-linkedin"></a> <h5>Contact No: 8420042422<br>Email:promaroy20@gmail.com</h5>
+    </div>
+    </div></div></div></div>
     <div id="section2">
 
     <div class="edu"><br><br><h1 class="head">Education</h1><br><p class="quote"><i>The whole purpose of education is to turn mirrors into windows</i><br>--Sydney J. Harris</p>
-  </div><br><div class="container-fluid"><div class="sec">
+  </div><div class="each"><br><div class="container-fluid"><div class="sec">
     <div class="row">
       <div class="col-sm-3"></div>
       <div class="col-sm-6"><div class="educ"><h4>Modern School</h4><h5>Location:</h5><h6><i>Barrackpore,Kolkata-700122</i></h6>
         <h5>Duration: </h5><h5><b>2003-2010</b></h5></div><br><br>
       <div class="educ"><h4>Modern English Academy</h4><h5>Location:</h5><h6><i>Barrackpore,Kolkata-700122</i></h6>
-        <h5>Duration: </h5><h5><b>2010-2016</b></h5></div><br><br>
-      <div class="educ"><h4>Bholananda National Vidyalaya</h4><h5>Location: </h5><h6><i>Barrackpore, Kolkata-700120</i></h6>
-        <h5>Duration: </h5><h5><b>2016-2018</b></h5></div><br><br>
+        <h5>Duration: </h5><h5><b>2010-2018</b></h5><h6>Scored 97.4% in ICSE(2016)</h6><h6>Scored 95.4% in CBSE(2018)</h6></div><br><br>
+
       <div class="educ"><h4>National Institute of Technology,Durgapur</h4><h5>Location: </h5><h6><i>Durgapur</i></h6>
         <h5>Duration: </h5><h5><b>2018-2022</b></h5></div><div class="col-sm-3"> </div></div> </div></div></div>
-  <br><br> <div id="section3">
+  <br><br></div> <div id="section3">
    <div class="edu"><h1 class="head">Technical Skills</h1><br><p class="quote"><i>Skill and confidence are unconquered army</i><br><b>--George Herbert</b></p>
-   </div><br><br><div class="container">
+   </div><div class="each"><br><br><div class="container">
      <div class="row">
       <!-- <div class="col-sm-3"></div>-->
        <div class="col-sm-3"></div>
-      <div class="col-sm-6"><ul class="bullets"><li class="each">C++</li><li class="each">C</li><li class="each">Git</li><li class="each">Python</li>
-      <li class="each">Arduino</li><li class="each">Html5</li><li class="each">CSS</li><li class="each">Bootstrap</li></ul></div>
-    </div></div></div></div>
+      <div class="col-sm-6"><ul class="bullets"><li><b>C++:</b><i> one of my most preferrable languages for competitive programming.</i></li><br><li><b>C:</b><i> learned it as a part of curriculum.</i></li><br><li><b>Git:</b> <i> the only VCS which I use to keep track of my projects.</i></li><br> <li><b>Python:</b> <i>used Python as a scripting language for web scraping and in my project related in computer vision.</i></li>
+      <br><li><b>Arduino:</b><i> prepared a bot(line follower and obstacle avoider) for Robocity<i></li><br><li><b>Html5:</b> <i>  used it for preparing layout of this web page.</i></li><br><li><b>CSS:</b><i> used for styling this web page.</i></li><br><li><b>Bootstrap:</b><i> used for styling this web page.</i></li></ul>
+    </div></div></div></div></div>
 
 
 
 
 <div id="section4">
   <div class="edu"><h1 class="head"><b>Projects</></h1><br><h3 class="quote"><i>Make an empty space in any corner of your mind<br> and creativity will instantly fill it.</i><br><b>--Dee Hock</b></h3>
-  </div>
+  </div><div class="each">
   <br><br>
   <div class="container"><div class="sec">
     <div class="row">
@@ -140,10 +153,29 @@
             <br><br><div class="proj"><h3><b>Django hello world app</b></h3><hr>
               This project was created using a python framework django.It is a simple hello world app
                 made as a part of glug task. Click <a href="https://github.com/promaroy/django1">here</a> to view the project.
-              </div></div></div></div></div><br><br>
+              </div></div></div></div></div><br><br></div>
     <div id="section5">  <div class="head">  <div class="edu"><a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-linkedin"></a><h5>Contact No: 8420042422<br>Email:promaroy20@gmail.com</h5>
   <a href="#section1"><i class="fa fa-angle-double-up" style="font-size:36px"></i></a>
 </div></div></div>
+<div class="bs-example">
+<div id="myModal" class="modal fade" tabindex="-1">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+
+            <h5 class="modal-title">Hello!! </h5>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>This is my personal website. To know more about me scroll down...</p>
+
+        </div>
+        <div class="modal-footer">
+          You are free to contact me through the contact details provided
+        </div>
+    </div>
+</div>
+</div></div>
   </body>
 </html>
