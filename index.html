@@ -23,6 +23,10 @@
 		$("#myModal").modal('show');
 	});
 </script>
+<script>
+AOS.init({
+  duration: 1200,
+})</script>
 
   </head>
   <body class="bg">
@@ -75,35 +79,47 @@
 
 
     <br><br><br>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+ <!-- Indicators -->
+ <ul class="carousel-indicators">
+   <li data-target="#demo" data-slide-to="0" class="active"></li>
+   <li data-target="#demo" data-slide-to="1"></li>
+   <li data-target="#demo" data-slide-to="2"></li>
+   <li data-target="#demo" data-slide-to="3"></li>
+ </ul>
+
+ <!-- The slideshow -->
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <h1><b>About me</h1></b>
+<p >Hello there!..My name is Proma Roy. I am a resident of Kolkata. I am a freshman pursuing B.Tech in Computer Science and engineering in Nit Durgapur
+.I love to solve problems.Whether it's the most elegant way to write a line of code or  discovering the solution. Viewers are free to contact me through the contact details provided.</p>
+   </div>
+   <div class="carousel-item">
+     <a href="#section2"><h1 style = "color:white"><b>Education</b></h1><hr><br><p style="color:white" >Includes information about my schooling,tne institution in which I am studying presently and my test scores.</p></a>
+   </div>
+   <div class="carousel-item">
+     <a href="#section3"><h1 style = "color:white"><b>Technical Skills</b></h1><hr><br><p style="color:white">Includes the technical skills which I possess and the tools and technologies which I use frequently in my projects.</p></a>
+   </div>
+   <div class="carousel-item">
+     <a href="#section4"><h1 style = "color:white"><b>Projects</b></h1><hr><br><p style="color:white">Includes the projects on which I have worked and also the ones I am currently working on.The project links have been provided.</p></a>
+ </div></div><br><br>
+
+ <!-- Left and right controls -->
+ <a class="carousel-control-prev" href="#demo" data-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+ </a>
+ <a class="carousel-control-next" href="#demo" data-slide="next">
+   <span class="carousel-control-next-icon"></span>
+ </a>
+</div>
 
 
 
-<!--  <div class="container">
-    <div class="row">
-    <!--  <div class="col-sm-3">
-      <!--<ul>
-       <li><a  href="#section1">About Me</a></li>
-       <li><a  href="#section2">Education</a></li>
-       <li><a  href="#section3">Technical Skills</a></li>
-       <li><a  href="#section4">Projects</a></li>
-       <li><a href="#section5">Contact</a></li>
-     </ul>-->
-      <!--<div class="col-sm-6">
-        <!--<div class="card horizontal">
-      <div class="card-image">
-        <img src="#">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
 
-        <div class="card bg-dark text-white">
-          <div class="card-content white-text">
-             <div class="card-header" style=color:red><b><h1>About me</h1></div>-->
-             <h1><b>About me</h1></b>
-      <p >Hello there!..My name is Proma Roy. I am a resident of Kolkata. I am a freshman pursuing B.Tech in Computer Science and engineering in Nit Durgapur
-      My website contains my education details till date, the projects which I have completed and also the ones  which
-      I am currently working on. It also contains the technology skills which I possess.I love to solve problems.Whether it's the most elegant way to write a line of code or  discovering the solution. Viewers are free to contact me through the contact details provided.</b>
-      <!--<div class="col-sm-3"><img src="" class="rounded-circle" width:"50" height:"30"></div>--><br>
+
+
       <div class="head">  <a href="#" class="fa fa-facebook"></a>
             <a href="#" class="fa fa-linkedin"></a> <h5>Contact No: 8420042422<br>Email<br>:promaroy20@gmail.com</h5>
     </div>
@@ -114,21 +130,21 @@
   </div><div class="each"><br><div class="container-fluid"><div class="sec">
     <div class="row">
       <div class="col-sm-3"></div>
-      <div class="col-sm-6"><div class="educ"><h4>Modern School</h4><h5>Location:</h5><h6><i>Barrackpore,Kolkata-700122</i></h6>
-        <h5>Duration: </h5><h5><b>2003-2010</b></h5></div><br><br>
-      <div class="educ"><h4>Modern English Academy</h4><h5>Location:</h5><h6><i>Barrackpore,Kolkata-700122</i></h6>
-        <h5>Duration: </h5><h5><b>2010-2018</b></h5><h6>Scored 97.4% in ICSE(2016)</h6><h6>Scored 95.4% in CBSE(2018)</h6></div><br><br>
+      <div class="col-sm-6"><div class="box"><h6>Modern School</h6><br>Location:Barrackpore,Kolkata-700122
+        <br>Duration: 2003-2010</div><br><br>
+      <div class="box"><h6>Modern English Academy</h6><br>Location:Barrackpore,Kolkata-700122<br>
+        Duration:2010-2018<br>Scored 97.4% in ICSE(2016)and  95.4% in CBSE(2018)</div><br><br>
 
-      <div class="educ"><h4>National Institute of Technology,Durgapur</h4><h5>Location: </h5><h6><i>Durgapur</i></h6>
-        <h5>Duration: </h5><h5><b>2018-2022</b></h5></div><div class="col-sm-3"> </div></div> </div></div></div>
+      <div class="box"><h6>National Institute of Technology,Durgapur</h6>Location:Durgapur<br>
+        Duration: 2018-2022</div><div class="col-sm-3"> </div></div> </div></div></div>
   <br><br></div> <div id="section3">
    <div class="edu"><h1 class="head">Technical Skills</h1><br><p class="quote"><i>Skill and confidence are unconquered army</i><br><b>--George Herbert</b></p>
    </div><div class="each"><br><br><div class="container">
      <div class="row">
       <!-- <div class="col-sm-3"></div>-->
        <div class="col-sm-3"></div>
-      <div class="col-sm-6"><ul class="bullets"><li><b>C++:</b><i> one of my most preferrable languages for competitive programming.</i></li><br><li><b>C:</b><i> learned it as a part of curriculum.</i></li><br><li><b>Git:</b> <i> the only VCS which I use to keep track of my projects.</i></li><br> <li><b>Python:</b> <i>used Python as a scripting language for web scraping and in my project related in computer vision.</i></li>
-      <br><li><b>Arduino:</b><i> prepared a bot(line follower and obstacle avoider) for Robocity<i></li><br><li><b>Html5:</b> <i>  used it for preparing layout of this web page.</i></li><br><li><b>CSS:</b><i> used for styling this web page.</i></li><br><li><b>Bootstrap:</b><i> used for styling this web page.</i></li></ul>
+      <div class="col-sm-6"><div class="box"><b>C++:</b> one of my most preferrable languages for competitive programming.</div><br><div class="box"><b>C:</b>learned it as a part of curriculum.</div><br><div class="box"><b>Git:</b> the only VCS which I use to keep track of my projects.</div><br><div class="box"> <b>Python:</b> used Python as a scripting language for web scraping and in my project related to computer vision.
+      </div><br><div class="box"><b>Arduino:</b> prepared a bot(line follower and obstacle avoider) for Robocity</div><br><div class="box"><b>Html5:</b> used it for preparing layout of this web page.</div><br><div class="box"><b>CSS:</b>used for styling this web page.</div><br><div class="box"><b>Bootstrap:</b>used for styling this web page.</div>
     </div></div></div></div></div>
 
 
@@ -141,19 +157,26 @@
   <div class="container"><div class="sec">
     <div class="row">
       <div class="col-sm-2"></div>
-      <div class="col-sm-8"><div class="proj"><h3><b>Voice to text conversion</b></h3><hr>
-        This project was created using python3.It uses Google audio recogniser to convert speech to text.The prerequisites for setting
-          up this project have been mentioned in the readme.md file.Click <a href="https://github.com/promaroy/speech_recog">here</a> to view the project.</div>
-        <br><br>  <div class="proj"><h3><b>Webscraping using python</b></h3><hr>
-          The project was created using python3 and selenium.With the help of this python script ones
-            can easily submit a problem to codechef through the terminal without logging in. Click <a href="https://github.com/promaroy/autocoding">here</a> to view the project.</div>
+      <div class="col-sm-8">
+      <div class="box"><h5><b>Voice to text conversion</b></h5><hr>
+             This project was created using python3.It uses Google audio recogniser to convert speech to text.The prerequisites for setting
+               up this project have been mentioned in the readme.md file.Click <a href="https://github.com/promaroy/speech_recog">here</a> to view the project.
+    </div><br>
+    <div class="box">
+     <h5><b>Webscraping using python</b></h5><hr>
+        The project was created using python3 and selenium.With the help of this python script ones
+          can easily submit a problem to codechef through the terminal without logging in. Click <a href="https://github.com/promaroy/autocoding">here</a> to view the project.
+    </div><br>
+
+    <div class="box">  <h5><b>Django hello world app</b></h5><hr>
+        This project was created using a python framework django.It is a simple hello world app
+          made as a part of glug task.Hope to improve it in near future.<br> Click <a href="https://github.com/promaroy/django1">here</a> to view the project.
+    </div>
+  </div></div></div></div><br><br></div></div>
+
+  <!-- Left and right controls -->
 
 
-
-            <br><br><div class="proj"><h3><b>Django hello world app</b></h3><hr>
-              This project was created using a python framework django.It is a simple hello world app
-                made as a part of glug task. Click <a href="https://github.com/promaroy/django1">here</a> to view the project.
-              </div></div></div></div></div><br><br></div>
     <div id="section5">  <div class="head">  <div class="edu"><a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-linkedin"></a><h5>Contact No: 8420042422<br>Email:promaroy20@gmail.com</h5>
   <a href="#section1"><i class="fa fa-angle-double-up" style="font-size:36px"></i></a>

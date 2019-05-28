@@ -25,7 +25,7 @@ padding: 10px 10px;
 
 } .bg{
   background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
-}
+  z-index: 1;}
 .sec{
   text-align: center;
 }
@@ -75,8 +75,7 @@ background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
 .proj{
   padding:10px;
-  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
-  border-radius: 10%;
+  color:black;
 }
 .proj:hover{
   background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
@@ -95,15 +94,31 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 #section1{
 
     padding:20%;
-    padding-top: 10%;
+    padding-top: 13%;
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
-
+}
      /* margin is -0.5 * dimension */
 
 
 
-}
+
 .bs-example{
     	margin: 20px;}
+
+.box{
+  border-left: 6px solid green;
+  box-shadow: 5px 10px 8px  #888888;
+  color: black;
+  font-size: 14px;
+  padding:10px;
+  padding-left: 6px;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  z-index: 1;
+}
+.box:hover{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  transform: scale(1.1);
+
+}
