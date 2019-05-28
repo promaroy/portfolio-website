@@ -1,6 +1,6 @@
 
 
-This is my personal website created with Html5,CSS and Bootstrap.
+This is my personal website created using Html5,CSS and Bootstrap.
 
 Various CSS and Bootstrap4 features like pop-up-window, slider, etc have been implemented.
 
