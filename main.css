@@ -1,4 +1,6 @@
-
+.fade{
+  transition: .5s;
+}
 .quote{
   font-family: cursive;
   font-size: 16px;
@@ -12,10 +14,14 @@
 
 
 }
-#pic1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+img{
+
+ height: 200px;
+ width: 180px;
+
+  border-radius: 50%;
+
+
 }
 .edu{
   background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
@@ -95,7 +101,7 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 #section1{
 
     padding:20%;
-    padding-top: 19%;
+    padding-top: 12%;
     text-align: center;
     color: white;
     background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
