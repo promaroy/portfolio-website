@@ -5,7 +5,7 @@
   font-family: cursive;
   font-size: 16px;
   text-align: center;
-  color:white;
+  color:black;
 }
 .head{
   text-align: center;
@@ -13,6 +13,9 @@
   font-family: sans-serif;
 
 
+}
+.q{
+  color: white;
 }
 img{
 
@@ -24,8 +27,8 @@ img{
 
 }
 .edu{
-  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
-   background-blend-mode: normal, lighten, soft-light;
+  /*background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+*/   background-blend-mode: normal, lighten, soft-light;
 box-shadow: 5px 10px 8px 10px #888888;
 padding: 10px 10px;
 
@@ -94,7 +97,7 @@ background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
 .each{
 
-background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+/*background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);*/
 
   padding:20px;
 }
@@ -104,7 +107,7 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     padding-top: 12%;
     text-align: center;
     color: white;
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    background-color: black;
 }
      /* margin is -0.5 * dimension */
 
@@ -115,21 +118,23 @@ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     	margin: 20px;}
 
 .box{
-  border-left: 6px solid green;
-  box-shadow: 5px 10px 8px  #888888;
+  /*border-left: 6px solid green;*/
+  /*box-shadow: 5px 10px 8px  #888888;*/
   color: black;
   font-size: 14px;
   padding:10px;
   padding-left: 6px;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+/*  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
   z-index: 1;
 }
 .box:hover{
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  /*background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);*/
+  box-shadow: 5px 10px 8px  #888888;
   transform: scale(1.1);
 
 }
 .boxin{
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  color: white;
+  /*background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  color: white;*/
+  color: black;
 }
